@@ -6,8 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
 </head>
-<body>
+<body onload="init()">
+
+    <h1>Tic Tac Toe</h1>
+
+    <div>
+        
+        <div id="content"></div>
+        <div id="svg-container"></div>
+
+        <div class="center mt-32px">
+            <button onclick="restartGame()">Spiel neu starten</button>
+        </div>
     
+    </div>
 
     <script src="script.js"></script>
 </body>
